@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.active-page {
+  background-color: #814848;
+  pointer-events: none;
+}
+
+.item-paging {
+  height: 30px;
+  width: 30px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  &:hover {
+    background-color: #814848;
+  }
+}
